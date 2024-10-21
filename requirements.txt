@@ -1,0 +1,7 @@
+Flask==2.3.2
+flask-socketio==5.3.3
+eventlet==0.33.0
+pyautogui==0.9.53
+opencv-python==4.5.3.56
+flask-limiter==2.3.1
+ffmpeg-python==0.2.0
