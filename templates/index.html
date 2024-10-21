@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recorder</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hacker Screen Recorder</h1>
+        <form method="POST" action="/start_recording">
+            <button type="submit" class="button">Start Recording</button>
+        </form>
+        <form method="POST" action="/stop_recording">
+            <button type="submit" class="button">Stop Recording</button>
+        </form>
+        <a href="/download_recording" class="button">Download Recording</a>
+    </div>
+</body>
+</html>
